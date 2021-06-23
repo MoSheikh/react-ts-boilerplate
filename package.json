@@ -1,13 +1,13 @@
 {
   "name": "react-ts-boilerplate",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "Boilerplate for React + TypeScript applications",
   "scripts": {
     "test": "jest",
     "build": "webpack build --mode production",
     "dev": "webpack build --mode development&&webpack serve --mode development",
-    "start": "node"
+    "start": "webpack build --mode production&&echo 'Implement this!'"
   },
   "author": "Mohammad Sheikh",
   "license": "UNLICENSED",
