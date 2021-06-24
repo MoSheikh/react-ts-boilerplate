@@ -25,10 +25,7 @@ module.exports = {
     "import/no-default-export": "error",
     "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": "off",
-    "no-use-before-define": [
-      "error",
-      { functions: false, classes: true, variables: true },
-    ],
+    "no-use-before-define": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-use-before-define": [
       "error",
