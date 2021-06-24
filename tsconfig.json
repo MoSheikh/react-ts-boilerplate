@@ -22,7 +22,9 @@
         "outDir": "build"
 	},
 	"include": [
-		"src/**/*"
+		"src/**/*",
+		"**/*.config.js",
+		".eslintrc.js"
 	]
 }
 
