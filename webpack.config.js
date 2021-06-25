@@ -28,10 +28,7 @@ module.exports = {
   module: {
     rules: [
       {
-        use: [
-          isProduction ? MiniCssExtractPlugin.loader : "style-loader",
-          "css-loader",
-        ],
+        use: [isProduction ? MiniCssExtractPlugin.loader : "style-loader", "css-loader"],
         test: /\.css/i,
         include: /src/,
       },

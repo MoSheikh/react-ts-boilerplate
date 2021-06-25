@@ -3,12 +3,12 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    jest: true
+    jest: true,
   },
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "jest"],
   parserOptions: {
-    project: "./tsconfig.json"
+    project: "./tsconfig.json",
   },
   extends: [
     "airbnb-typescript",
@@ -16,7 +16,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:jest/recommended",
-    "prettier"
+    "prettier",
   ],
   rules: {
     "@typescript-eslint/semi": "off",
@@ -29,8 +29,8 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-use-before-define": [
       "error",
-      { functions: false, classes: true, variables: true, typedefs: true }
-    ]
+      { functions: false, classes: true, variables: true, typedefs: true },
+    ],
   },
   overrides: [
     {
@@ -38,8 +38,8 @@ module.exports = {
       rules: {
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-unsafe-assignment": "off",
-        "@typescript-eslint/no-unsafe-member-access": "off"
-      }
-    }
-  ]
+        "@typescript-eslint/no-unsafe-member-access": "off",
+      },
+    },
+  ],
 };
