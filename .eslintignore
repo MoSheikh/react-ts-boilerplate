@@ -1,2 +1,5 @@
-node_modules
+.husky
+.idea
 build
+node_modules
+src/assets

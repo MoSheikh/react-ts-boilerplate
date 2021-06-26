@@ -3,3 +3,12 @@ build
 
 # Ignore dependencies
 node_modules
+
+# Ignore git hooks folder
+.husky
+
+# Ignore IDEA directory
+.idea
+
+# Ignore assets folder
+src/assets
