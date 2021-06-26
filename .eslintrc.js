@@ -19,7 +19,6 @@ module.exports = {
     "prettier",
   ],
   rules: {
-    "@typescript-eslint/semi": "off",
     "no-prototype-builtins": "off",
     "import/prefer-default-export": "off",
     "import/no-default-export": "error",
