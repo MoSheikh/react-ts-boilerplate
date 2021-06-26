@@ -5,8 +5,8 @@ module.exports = {
     browser: true,
     jest: true,
   },
-  parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "jest"],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
   },
