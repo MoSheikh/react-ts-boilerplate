@@ -2,6 +2,11 @@
 
 Simple React + TypeScript + Webpack + Babel configuration to quickly get started on full projects.
 
+### Features
+
+- Webpack configured out-of-the-box for all main use cases with no restrictions on extension
+- Babel to transpile
+
 ### Getting Started
 
 Beginning at the directory that you want to add your new project under:
