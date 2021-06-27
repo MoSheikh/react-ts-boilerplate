@@ -17,5 +17,5 @@
     "jsx": "react",
     "outDir": "build"
   },
-  "include": ["src/**/*", "webpack.config.js"]
+  "include": ["src/**/*", "webpack.config.js", ".eslintrc.js"]
 }

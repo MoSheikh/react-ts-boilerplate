@@ -1,7 +1,8 @@
 import React from "react";
+import { sum } from "./util/math";
 
 export const App: React.FunctionComponent = () => (
   <div>
-    <p>Welcome to your React application.</p>
+    <p>{sum(1, 1)}</p>
   </div>
 );
